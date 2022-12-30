@@ -1,0 +1,148 @@
+.newsroom_page_banner_bg{
+    background-image: url(./../img/newroom_page_banner.png);
+    background-size: 100%;
+}
+
+.sub_heading_sec_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.new_room_page_box_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.new_room_page_box_container .slider_img_main_box_sec{
+    margin-bottom: 20px;
+    min-width: 385px;
+    margin-right: 14px;
+}
+
+/* filter section start */
+.filter_sec_cont{
+    position: relative;
+}
+
+.filter_sec_cont:hover .filter_sec_dropdown{
+    display: block;
+}
+
+.filter_sec_cont img{
+    cursor: pointer;
+}
+
+.filter_sec_dropdown{
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: 9;
+    width: 295px;
+    height: 417px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 20px 30px rgba(19, 16, 16, 0.2);
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.filter_sec_header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.filter_sec_header h4{
+    font-weight: 600;
+    font-size: 18px;
+    color: #142958;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.datepicker_sec_cont{
+    padding-top: 15px;
+}
+
+.date_input_group{
+    position: relative;
+    background-image: url(./../img/calendar_icon.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+}
+
+.date_input_group input{
+    border: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;
+}
+
+.date_input_group input:focus{
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.date_input_group input::placeholder { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;
+}
+  
+.date_input_group input :-ms-input-placeholder { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;
+}
+  
+.date_input_group input ::-ms-input-placeholder { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;
+}
+
+.check_box_list{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.check_box_list .check_box_label_cont{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;
+}
+
+.filter_apply_btn_cont{
+
+}
+
+
+/* filter section end */
+
+
+@media(max-width: 767px){
+    .sub_heading_sec_cont{
+        padding-left: 15px;
+    }
+    .brand_sub_header h3{
+        font-size: 16px;
+    }
+}
