@@ -1,0 +1,150 @@
+.leadership_popup_modal .modal-content{
+    overflow: hidden;
+    border: 0px;
+}
+
+.leadership_popup_modal .modal-body{
+    padding: 0px;
+}
+
+.leadership_popup_modal .btn-close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.leadership_popup_main_cont{
+    display: flex;
+}
+
+.popup_left_side{
+    background-color: #339F7A;
+    width: 50px;
+    height: 660px;
+}
+
+.popup_right_side{
+    width: calc(100% - 50px);
+    /* padding: 0px 15px; */
+    background: #F9F9F9;
+}
+
+.leadership_popup_heading{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.leadership_popup_heading h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #142958;
+    margin-bottom: 0px;
+}
+
+.leadership_popup_boday_cont{
+    display: flex;
+    height: calc(100% - 40px);
+}
+
+.leadership_popup_details_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.green_box_cont{
+    Width : 316px;  
+    Height : 238px;
+    background-color: #339F7A;
+    position: relative;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.green_box_cont img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    margin: auto;
+}
+
+.leadership_name_details{
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.leadership_name_details h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2DA77D;
+    margin-bottom: 10px;
+}
+
+.leadership_name_details p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #142958;
+    margin-bottom: 10px;
+}
+
+.leadership_popup_details_right {
+    padding: 0px 40px;
+}
+
+.leadership_popup_details_right p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #767676;
+}
+
+
+@media(max-width:767px){
+    .leadership_popup_heading h3{
+        font-size: 18px;
+    }
+    .leadership_popup_heading{
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 0px 20px;
+    }
+    .popup_right_side{
+        width: 100%;
+    }
+    .popup_left_side{
+        display: none;
+    }
+    .leadership_popup_boday_cont{
+        flex-direction: column;
+        padding: 0px 15px 20px 15px;
+    }
+    .leadership_popup_details_left{
+        margin-bottom: 0px;
+        align-items: initial;
+    }
+    .leadership_name_details h4{
+        font-size: 16px;
+    }
+    .leadership_name_details p{
+        font-size: 14px;
+    }
+
+    .green_box_cont{
+        width: 100%;
+    }
+    .leadership_popup_details_right{
+        padding: 0px;
+    }
+    .leadership_name_details{
+        padding-left: 0px;
+    }
+}
