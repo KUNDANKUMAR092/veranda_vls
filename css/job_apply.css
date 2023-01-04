@@ -1,0 +1,241 @@
+.job_apply_form_sec{
+    max-width: 1200px;
+    margin: auto;
+    height: 1230px;
+    position: relative;
+}
+.job_apply_form_container {
+    border-radius: 8px;
+    display: flex;
+    background: #f5f5f5;
+    border: 1px solid #e2e2e2;
+    padding: 80px 60px;
+    justify-content: space-between;
+    position: absolute;
+    top: -253px;
+}
+.job_apply_form_left{
+    width: 47%;
+}
+.job_apply_form_left h1 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    border-bottom: 1px solid #B5B5B5;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #142958;
+}
+.job_apply_form_left h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+.job_apply_form_left p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.job_apply_form_left ul {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.job_apply_form_left ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.job_apply_form_right {
+    padding: 45px 50px;
+    width: 48%;
+    background: white;
+}
+.job_apply_form_right h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.job_apply_input_form label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #282828;
+}
+.job_apply_input_form input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCBCB;
+}
+
+.job_apply_input_form textarea{
+    width: 100%;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCBCB;
+}
+
+.job_apply_input_form input::placeholder ,
+.job_apply_input_form textarea::placeholder{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCBCB;
+}
+  
+.job_apply_input_form input:-ms-input-placeholder,
+.job_apply_input_form textarea:-ms-input-placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCBCB;
+}
+  
+.job_apply_input_form input::-ms-input-placeholder,
+.job_apply_input_form textarea::-ms-input-placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCBCB;
+}
+.job_apply_input_form input.form-control:focus,
+.job_apply_input_form textarea:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #E2E2E2;
+    color: #CCCBCB;
+}
+.upload_file_cont {
+    box-sizing: border-box;
+    border: 1px dashed #e2e2e2;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 115px;
+}
+.upload_file_cont p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #282828;
+    margin: 10px 0px 2px 0px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block; 
+}
+.upload-btn-wrapper .btn {
+    font-family: "Montserrat", sans-serif;
+    border: 0;
+    color: #0055d6;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    color: #0055D6;
+    padding: 0px;
+}
+  
+.upload-btn-wrapper input[type="file"] {
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 0px;
+}
+.capcha_validate_cont{
+    display: flex;
+}
+.capcha_validate_cont .check_box_label_cont .checkmark{
+    left: -25px;
+    right: initial;
+}
+.apply .submit {
+    color: #ffffff;
+    width: 25%;
+    background: #2da77d;
+    box-shadow: 0px 4px 15px rgb(45 167 125 / 20%);
+    border-radius: 6px;
+}
+  
+
+@media(max-width: 767px){
+    .job_apply_form_sec{
+        height: 1850px;
+    }
+    .job_apply_form_container{
+        flex-direction: column;
+        top: -60px;
+        margin: 0px 15px;
+        width: calc(100% - 30px);
+        padding: 30px 15px;
+    }
+    .job_apply_form_left,
+    .job_apply_form_right{
+        width: 100%;
+    }
+    .job_apply_form_right{
+        margin-top: 20px;
+        padding: 20px 15px;
+    }
+    .job_apply_form_left h1{
+        font-size: 16px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .job_apply_form_left p,
+    .job_apply_form_left ul li{
+        font-size: 14px;
+    }
+    .job_apply_form_right h2{
+        font-size: 16px;
+    }
+    .job_apply_input_form label,
+    .job_apply_input_form input,
+    .job_apply_input_form textarea{
+        font-size: 14px;
+    }
+    .job_apply_input_form input::placeholder ,
+    .job_apply_input_form textarea::placeholder{
+        font-size: 16px;
+    }
+    
+    .job_apply_input_form input:-ms-input-placeholder,
+    .job_apply_input_form textarea:-ms-input-placeholder {
+        font-size: 16px;
+    }
+    
+    .job_apply_input_form input::-ms-input-placeholder,
+    .job_apply_input_form textarea::-ms-input-placeholder {
+        font-size: 16px;
+    }
+    .submit_btn{
+        width: 100%;
+    }
+}
