@@ -1,0 +1,204 @@
+.barand_name_page_banner_bg{
+    background-image: url(./../img/newroom_page_banner.png);
+    background-size: 100%;
+}
+.brand_details_name_sec{
+    display: flex;
+}
+.brand_details_sec{
+    width: 368px;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+    padding-top: 50px;
+}
+.brand_detail_logo{
+    display: flex;
+    justify-content: center
+}
+
+.brand_detail_value{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    margin: 40px 0px 30px 0px;
+}
+.brand_detail_value hr{
+    border: 1px solid #E2E2E2;
+    opacity: 1;
+    height: 63px;
+}
+.brand_detail_estd{
+
+}
+.brand_detail_estd, 
+.brand_detail_revenue{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.brand_detail_estd h5, .brand_detail_estd p,
+.brand_detail_revenue h5, .brand_detail_revenue p{
+    margin-bottom: 0px;
+}
+.brand_detail_estd h5,.brand_detail_revenue h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2DA77D;
+}
+.brand_detail_estd p, .brand_detail_revenue p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #142958;
+}
+.brand_key_heighlight{
+    padding: 0px 15px;
+}
+.brand_key_heighlight h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #142958;
+}
+
+.brand_key_heighlight ul{
+    padding-left: 18px;
+}
+
+.brand_key_heighlight ul li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767676;
+}
+.brand_description_sec{
+    flex: 1;
+    padding-left: 42px;
+}
+
+.brand_description_sec .brand_header{
+    margin-top: 0px;
+}
+.brand_description_sec p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #767676;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+.brand_highlighter_sec{
+    padding-left: 20px;
+}
+.brand_highlighter_sec li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767676;
+    position: relative;
+}
+.brand_highlighter_sec li::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: -18px;
+    top: 6px;
+    bottom: 0;
+    border: 1px solid #2BA97D;
+    border-radius: 50%;
+}
+.brand_highlighter_sec li::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: -16px;
+    top: 8px;
+    bottom: 0;
+    background-color: #2BA97D;
+    border-radius: 50%;
+}
+
+.offering_brand_container{
+    display: flex;
+    padding-top: 20px;
+}
+.offering_discription_cont{
+    width: 50%;
+    height: 547px;
+    background: rgba(45, 167, 125, 0.88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offering_discription{
+    max-width: 380px;
+}
+.offering_discription h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.offering_discription p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.offering_brand_logo_cont{
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.offering_brand_slider_container{
+    overflow: hidden;
+    margin-left: -150px;
+}
+.offering_brand_slider{
+    width: 1400px;
+}
+.offering_brand_logo_cont .slider_img_barand_logo_box{
+    background: #F9F9F9;
+    border-radius: 6px;
+    height: 210px;
+    padding: 41px 27px;
+    margin-right: 15px;
+}
+.barand_logo_box{
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(max-width:767px){
+    .brand_details_name_sec{
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+    .brand_details_sec{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .brand_description_sec{
+        padding-left: 0px;
+    }
+}

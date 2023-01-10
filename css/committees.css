@@ -1,0 +1,144 @@
+/* .committees_container{
+    height: 1000px;
+} */
+
+
+.committees_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+}
+
+.per_page_banner_bg .banner_conatiner h4 {
+
+    font-size: 48px;
+    line-height: 48px;
+}
+
+
+
+.committees_sub_cont_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.committees_title {
+    /* position: absolute; */
+    /* width: 214px; */
+    height: 29px;
+    left: 150px;
+    top: 539px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #142958;
+
+}
+
+.committees_sub_title {
+    /* position: absolute; */
+    width: 233px;
+    height: 20px;
+    left: 167px;
+    top: 612px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #142958;
+
+}
+
+.committees_box_cont {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 364px;
+    height: 90px;
+    left: 150px;
+    top: 592px;
+
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 12px 0px;
+}
+
+
+
+.committees_second_sub_title {
+    /* position: absolute; */
+    width: 101px;
+    height: 16px;
+    left: 167px;
+    top: 646px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #767676;
+
+}
+
+@media(max-width: 767px) {
+
+    .committees_box_cont {
+        width: 90%;
+        height: 90px;
+    }
+
+    .committees_sub_cont_div {
+        justify-content: space-around;
+    }
+
+    .committees_div {
+        padding-left: 15px !important;
+    }
+
+    .committees_title {
+
+        height: 24px;
+        left: 16px;
+        top: 323px;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    .banner_section {
+        height: 160px;
+    }
+
+    .banner_conatiner {
+        height: 90%;
+    }
+
+
+
+
+
+
+}

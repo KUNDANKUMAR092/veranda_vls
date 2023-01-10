@@ -1,0 +1,227 @@
+@media(min-width: 767px) {
+
+    .newsroom_page_banner_bg {
+        background-image: url(./../img/newroom_page_banner.png);
+        background-size: 100%;
+    }
+}
+
+
+.investors_contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.investors_contact_box {
+    /* position: absolute; */
+
+    width: 379px;
+    height: 390px;
+    left: 531px;
+    top: 549px;
+
+    /* background: rgba(226, 226, 226, 0.1); */
+    border-radius: 6px;
+
+    /* padding: 10px; */
+}
+
+.investors_contact_box_middle {
+    background: rgba(226, 226, 226, 0.1);
+
+}
+
+.title {
+    /* position: absolute; */
+    width: 309px;
+    height: 27px;
+    left: 560px;
+    top: 575px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #142958;
+}
+
+.horizontal_line {
+    /* position: absolute; */
+    width: 167px;
+    height: 0px;
+    left: 150px;
+    top: 608px;
+    color: #2DA77D;
+    background-color: #2DA77D;
+    border: 1px solid #2DA77D;
+}
+
+.investor_name {
+    /* position: absolute; */
+    /* width: 312px; */
+    height: 24px;
+    left: 150px;
+    top: 621px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+
+.investor_address {
+    /* position: absolute; */
+    width: 316px;
+    /* height: 130px; */
+    left: 150px;
+    top: 661px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* or 193% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #767676;
+
+}
+
+.email_id_title {
+    /* position: absolute; */
+    width: 129px;
+    height: 18px;
+    left: 150px;
+    top: 811px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 48px;
+    /* or 400% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #767676;
+}
+
+
+
+.email_id_img {
+    color: #2DA77D;
+    float: left;
+    margin-top: -1.5px;
+    margin-right: 5px;
+}
+
+.email_id_text {
+
+    /* position: absolute; */
+    width: 296px;
+    height: 24px;
+    left: 580px;
+    top: 834px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+
+    color: #000000;
+
+}
+
+.phone_no_title {
+    /* position: absolute; */
+    width: 129px;
+    height: 18px;
+    left: 560px;
+    top: 874px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 48px;
+    /* or 400% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #767676;
+
+
+}
+
+.phone_number {
+    /* position: absolute; */
+    width: 131px;
+    height: 22px;
+    left: 560px;
+    top: 894px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+
+    color: #000000;
+
+}
+
+
+@media(max-width: 767px) {
+    .investors_contacts {
+        justify-content: space-evenly;
+    }
+
+    .investors_contact_box {
+        padding: 18px;
+    }
+
+    .banner_section {
+        height: 160px;
+    }
+
+    .banner_conatiner {
+        height: 90%;
+    }
+
+}

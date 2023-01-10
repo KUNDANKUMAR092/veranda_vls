@@ -1,0 +1,276 @@
+/* sections */
+
+.banner_conatiner {
+    height: 95%;
+}
+
+#radio_button {
+    border: 3px solid white;
+    box-shadow: 0 0 0 1px #2ba97d;
+    appearance: none;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    /* background-color: #fff; */
+    transition: all ease-in 0.2s;
+
+}
+
+#radio_button:checked {
+    background-color: #2BA97D;
+}
+
+
+
+.sub_title_text {
+    margin-top: 3px;
+    /* position: absolute; */
+    /* width: 278px; */
+    height: 21px;
+    left: 168px;
+    top: 599px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.01em;
+
+    color: #767676;
+    padding-left: 5px;
+}
+
+.title_link a {
+    /* position: absolute; */
+    width: 69px;
+    height: 20px;
+    left: 457px;
+    top: 599px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+
+    color: #2EA77E;
+
+
+}
+
+.horizontal_line {
+    /* position: absolute; */
+    width: 1140px;
+    height: 0px;
+    left: 150px;
+    top: 634px;
+
+    border-top: 1px dashed #CACACA !important;
+    opacity: 1;
+}
+
+
+
+.section_title_div {
+    /* position: absolute; */
+    /* width: 266px; */
+    /* height: 29px; */
+    left: 150px;
+    top: 1118px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #142958;
+
+}
+
+
+
+/* quarter section  */
+
+.quarter_results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.quarter_box {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 282px;
+    height: 126px;
+    left: 150px;
+    top: 1198px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+
+    /* padding-left: 6px; */
+
+    margin: 15px 20px 5px 0px;
+}
+
+.sub_quarter_box {
+    /* position: absolute; */
+    /* width: 108px;
+    height: 108px;
+    left: 160px;
+    top: 1207px;
+
+    background: rgba(118, 118, 118, 0.1);
+    border-radius: 6px; */
+
+    margin-top: 3%;
+}
+
+.sub_quarter_year_box {
+    /* position: absolute; */
+    width: 108px;
+    height: 44px;
+    left: 160px;
+    top: 1207px;
+
+    background: #2BA97D;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.sub_quarter_year {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.sub_quarter_heading_box {
+    /* position: absolute; */
+    width: 108px;
+    height: 65px;
+    left: 160px;
+    top: 1207px;
+
+    background: rgba(118, 118, 118, 0.1);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.sub_quarter_heading {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #142958;
+
+    padding-top: 16px;
+    padding-left: 30px;
+
+}
+
+.quarter_right_portion {
+    padding: 25px;
+}
+
+.quarter_and_year {
+    /* position: absolute; */
+    width: 87px;
+    height: 29px;
+    left: 293px;
+    top: 1224px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height, or 180% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #142958;
+
+}
+
+.quarter_date {
+    /* position: absolute; */
+    width: 107px;
+    height: 29px;
+    left: 293px;
+    top: 1249px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height, or 180% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #142958;
+
+}
+
+
+/* mobile view css */
+
+@media(max-width: 767px) {
+
+    .horizontal_line {
+        width: 328px;
+        height: 0px;
+        left: 16px;
+        top: 394.5px;
+    }
+
+    .section_div {
+        padding-left: 12px;
+    }
+
+    .form-check-inline {
+        margin-right: 0px
+    }
+
+    .quarter_box {
+        width: -webkit-fill-available;
+    }
+
+    .section_title_div {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+}

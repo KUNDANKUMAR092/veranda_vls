@@ -43,7 +43,25 @@
 .history_section .history_right_section{
     width: 50%;
 }
-
+.history_right_section .brand_header{
+    display: none;
+}
+.history_right_section .brand_header h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #30A67E;
+}
+.history_right_section .brand_header p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: #767676;
+}
 .history_section .history_right_section{
     position: relative;
     height: 711px;
@@ -67,14 +85,154 @@
 
 .history_calender_box{
     display: flex;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .history_calender_year_drop_down{
+    padding-right: 25px;
+}
 
+.history_calender_year_drop_down select{
+    padding: 0px;
+    padding-right: 15px;
+    background-image: url(./../img/expand_more.png);
+    background-position: right 0px center;
+    background-size: 12px 9px;
+    border: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #30A67E;
+}
+.history_calender_year_drop_down select:focus{
+    border: 0px;
+    border-color: transparent;
+    box-shadow: none;
+    outline: none;
 }
 
 .history_calender_year_month{
+    border-left: 3px solid #767676;
+    padding-top: 8px;
+}
+
+.history_calender_year_month ul{
+    display: flex;
+}
+.history_calender_year_month ul li{
+    list-style: none;
+}
+.history_calender_year_month ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #767676;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.history_calender_year_month ul li a.active{
+    font-weight: 700;
+    color: #30A67E;
+}
+
+.calender_year_cont ul li{
+    margin-right: 15px;
+}
+.calender_month_cont ul {
+    margin-bottom: 8px;
+}
+.calender_month_cont ul li{
+    margin : 0px 12px;
+}
+
+.history_detals_slider_box{
+    margin-top: 150px;
+}
+
+.history_detals_slider_box .green_color h3{
+    color: #30A67E;
+}
+.awards_and_recognitions{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.awards_and_recognitions_slick_slider .slider_img_main_box_sec .slider_img_box:last-child{
+    margin-top: 90px;
+}
+.awards_and_recognitions{
     
+}
+
+
+@media(max-width: 767px){
+    .who_we_are_banner_bg{
+        height: 215px;
+    }
+    .who_we_are_banner_bg .banner_body_section .banner_conatiner p{
+        font-size: 12px;
+        width: calc(100% - 30px);
+        padding: 0px;
+    }
+    .history_section{
+        flex-direction: column-reverse;
+        padding-left: 15px;
+    }
+    .history_section .history_left_section, .history_section .history_right_section{
+        width: 100%;
+    }
+    .history_right_section .brand_header{
+        display: block;
+    }
+    .history_section .history_right_section{
+        
+        overflow: hidden;
+    }
+    .history_section .history_right_section .history_right_section_bg{
+        right: -50px;
+        height: 420px;
+        width: calc(100% - 50px);
+    }
+    .history_section .history_right_section .history_right_section_bg img{
+        left: -50px;
+        width: calc(100% - 50px)
+    }
+    .history_left_section{
+        padding-right: 15px;
+    }
+    .history_left_section .brand_header{
+        display: none;
+    }
+    .history_calender_year_drop_down{
+        display: none;
+    }
+    .history_calender_year_month{
+        border-left: 0px;
+    }
+    .history_detals_slider_box{
+        margin-top: 20px;
+    }
+    .history_calender_year_month ul{
+        padding-left: 0px;
+    }
+    .who_we_are_details{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .awards_and_recognitions_slick_slider .slider_img_main_box_sec .slider_img_box:last-child{
+        display: none;
+    }
+    .awards_and_recognitions{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 

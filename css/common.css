@@ -40,6 +40,21 @@
     margin: 0px;
 }
 
+.brand_sub_light_header{
+    position: relative;
+    padding-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.brand_sub_light_header h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #142958;
+    margin: 0px;
+}
+
 /* button section */
 .larg_button , .small_button, .submit_btn, .clear_btn{
     height: 48px;
