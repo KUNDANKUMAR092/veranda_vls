@@ -11,6 +11,9 @@
     min-width: 385px;
     margin-right: 14px;
 }
+.blog_details_box h5{
+    margin-bottom: 20px;
+}
 .blog_details_box p{
     margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;

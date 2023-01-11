@@ -28,8 +28,8 @@
 .brand_sub_header{
     position: relative;
     padding-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .brand_sub_header h3{
@@ -43,8 +43,8 @@
 .brand_sub_light_header{
     position: relative;
     padding-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .brand_sub_light_header h4{
