@@ -44,6 +44,7 @@
 .blog_calender_details_box .calender_sec{
     display: flex;
     align-items: center;
+    line-height: initial;
 }
 
 .blog_calender_details_box .calender_sec span{
@@ -51,10 +52,13 @@
     font-size: 14px;
     color: #B9B9B9;
     font-family: 'Poppins', sans-serif;
+    line-height: initial;
 }
 
 .blog_calender_details_box .calender_sec img{
     width: 10px;
+    margin-right: 5px;
+    line-height: initial;
 }
 
 .blog_calender_details_box .read_more_sec{

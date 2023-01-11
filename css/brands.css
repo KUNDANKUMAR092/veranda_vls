@@ -20,7 +20,8 @@
 .brand_box_header{
     display: flex;
     justify-content: center;
-    height: 41px;
+    align-items: center;
+    height: 60px;
 }
 
 .brand_box_body{
@@ -41,7 +42,7 @@
     color: #D9D9D9;
     opacity: 1;
     width: 80%;
-    margin: 1rem auto;
+    margin: 0px auto 1rem;
 }
 
 .arrow_outward{
@@ -89,6 +90,9 @@
         padding: 10px;
         border: 1px solid #E2E2E2;
         box-shadow: none;
+    }
+    .brand_box_header{
+        height: 41px;
     }
     .brand_box_header img{
         width: calc(100% - 10px);

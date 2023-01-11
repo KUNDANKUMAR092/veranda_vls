@@ -10,6 +10,13 @@
     padding: 0px 15px;
 }
 
+.news_room_per_page_banner_img{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .news_room_per_page_details_cont h4{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;

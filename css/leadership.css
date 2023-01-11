@@ -27,12 +27,16 @@
 }
 
 .leadership_page_container .slider_img_main_box_sec .slider_img_box .slider_item_img{
+    max-width: 385px;
     height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .leadership_page_container .slider_img_main_box_sec .slider_img_box .slider_item_img img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 
 .leadership_page_container .slider_img_main_box_sec .slider_img_box .blog_details_box{

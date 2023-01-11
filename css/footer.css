@@ -7,9 +7,10 @@ footer{
 
 .footer_main_details{
     display: flex;
-    height: 246px;
-    align-items: center;
+    height: 310px;
+    /* align-items: center; */
     justify-content: space-between;
+    padding: 70px 0px 40px 0px;
 }
 
 .logo_with_social_icon_cont{
@@ -70,12 +71,13 @@ footer{
 
 .important_link_section ul li{
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    line-height: 40px;
 }
 
 .important_link_section ul li a{
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 16px;
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -114,28 +116,28 @@ footer{
     padding: 0px 60px 0px 45px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #B1B1B1;
 }
 
 .search_input_form input::placeholder { 
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #B1B1B1;
 }
   
 .search_input_form input:-ms-input-placeholder { 
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #B1B1B1;
 }
   
 .search_input_form input::-ms-input-placeholder { 
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #B1B1B1;
 }
 
