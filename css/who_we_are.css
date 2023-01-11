@@ -43,25 +43,28 @@
 .history_section .history_right_section{
     width: 50%;
 }
-.history_right_section .brand_header{
+/* .history_right_section .brand_header h2{
+    margin-bottom: 30px;
+} */
+/* .history_right_section .brand_header{
     display: none;
-}
-.history_right_section .brand_header h4{
+} */
+/* .history_right_section .brand_header h4{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
     text-transform: uppercase;
     color: #30A67E;
-}
-.history_right_section .brand_header p{
+} */
+/* .history_right_section .brand_header p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     align-items: center;
     color: #767676;
-}
+} */
 .history_section .history_right_section{
     position: relative;
     height: 711px;
@@ -117,6 +120,7 @@
 .history_calender_year_month{
     border-left: 3px solid #767676;
     padding-top: 8px;
+    width: calc(100% - 100px);
 }
 
 .history_calender_year_month ul{
@@ -139,6 +143,23 @@
 .history_calender_year_month ul li a.active{
     font-weight: 700;
     color: #30A67E;
+}
+
+.calender_year_cont{
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.calender_month_cont{
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.calender_year_cont::-webkit-scrollbar,
+.calender_month_cont::-webkit-scrollbar {
+    display: none;
 }
 
 .calender_year_cont ul li{
@@ -180,17 +201,17 @@
         padding: 0px;
     }
     .history_section{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-left: 15px;
     }
     .history_section .history_left_section, .history_section .history_right_section{
         width: 100%;
     }
-    .history_right_section .brand_header{
+    /* .history_right_section .brand_header{
         display: block;
-    }
+    } */
     .history_section .history_right_section{
-        
+        height: 470px;
         overflow: hidden;
     }
     .history_section .history_right_section .history_right_section_bg{
@@ -205,20 +226,23 @@
     .history_left_section{
         padding-right: 15px;
     }
-    .history_left_section .brand_header{
-        display: none;
-    }
     .history_calender_year_drop_down{
+        padding-right: 10px;
+    }
+    /* .history_left_section .brand_header{
         display: none;
-    }
-    .history_calender_year_month{
+    } */
+    /* .history_calender_year_drop_down{
+        display: none;
+    } */
+    /* .history_calender_year_month{
         border-left: 0px;
-    }
+    } */
     .history_detals_slider_box{
         margin-top: 20px;
     }
     .history_calender_year_month ul{
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .who_we_are_details{
         padding-left: 15px;
