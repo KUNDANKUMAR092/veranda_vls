@@ -1,0 +1,161 @@
+.veranda_navbar_common{
+    padding: 0px;
+    min-height: 64px;
+    background: #EFEFEF !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14);    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.veranda_navbar_common .container-fluid{
+    margin: 0px 35px;
+    position: relative;
+}
+
+.veranda_navbar_common .navbar-brand{
+    padding: 0px;
+    margin-left: -15px;
+}
+
+.real_sensex_value_box{
+    padding: 13px 5px;
+    position: absolute;
+    right: 0;
+}
+
+.real_sensex_data{
+    display: flex;
+    align-items: center;
+}
+
+.real_sensex_data .sensex_bold{
+    font-weight: 600;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.real_sensex_data .sensex_thin{
+    font-weight: 500;
+    font-size: 10px;
+    color: #2DA77E;
+}
+
+.real_sensex_value_box p{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 10px;
+    color: #3D3D3D;
+}
+
+.veranda_navbar_common .collapse.navbar-collapse{
+    flex-grow: initial;
+    width: calc(100% - 280px);
+    padding-right: 150px;
+}
+
+.veranda_navbar_common .collapse.navbar-collapse .navbar-nav{
+    flex: 1;
+    justify-content: end;
+}
+
+.veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item{
+    margin-left: 20px;
+}
+
+.veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #3D3D3D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item .nav-link.active{
+    color: #2DA77E;
+}
+
+
+@media(max-width: 991px){
+    .real_sensex_value_box{
+        padding: 10px 5px;
+        position: relative;
+        right: initial;
+    }
+    .real_sensex_value_box{
+        padding: 13px 5px;
+    }
+    .veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item {
+        margin-left: 0px;
+    }
+    .veranda_navbar_common .navbar-toggler{
+        border: 0px;
+        padding: 0px;
+        position: relative;
+        box-shadow: none;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    .veranda_navbar_common .navbar-toggler:focus {
+        box-shadow: none;
+        text-decoration: none;
+    }
+    .veranda_navbar_common .navbar-toggler .navbar-toggler-icon{
+        background-image: none;
+        height: 2px;
+        background-color: #2DA77D;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    
+    .veranda_navbar_common .navbar-toggler .navbar-toggler-icon::after, 
+    .veranda_navbar_common .navbar-toggler .navbar-toggler-icon::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-color: #2DA77D;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .veranda_navbar_common .navbar-toggler .navbar-toggler-icon::after{
+        top: 0px;
+    }
+    .veranda_navbar_common .navbar-toggler .navbar-toggler-icon::before{
+        bottom: -2px;
+    }
+    .veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu{
+        margin-top: 0px;
+        padding-top: 0px;
+        border: 0px;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+
+
+@media(max-width: 767px){
+    .veranda_navbar_common .container-fluid{
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .veranda_navbar_common .container-fluid .navbar-brand{
+        margin-right: 0px;
+    }
+    .veranda_navbar_common .container-fluid .navbar-brand img{
+        max-width: 90px;
+    }
+    .real_sensex_data{
+        flex-direction: column;
+        line-height: 1;
+        align-items: normal;
+    }
+
+    .veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item{
+        margin-left: 0px;
+    }
+}

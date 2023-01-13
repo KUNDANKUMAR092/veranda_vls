@@ -25,6 +25,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.new_brand_header{
+    position: relative;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.new_brand_header h2{
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #3D3D3D;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .brand_sub_header{
     position: relative;
     padding-right: 50px;
@@ -310,6 +326,10 @@
 
 
 @media(max-width: 767px){
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .brand_header h2{
         font-size: 20px;
     }
