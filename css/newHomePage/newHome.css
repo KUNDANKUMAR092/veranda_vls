@@ -22,6 +22,56 @@ body{
 .home_page_top_banner_cont{
 
 }
+.home_page_top_banner_cont .carousel-indicators{
+    right: initial;
+    bottom: 80px;
+    margin-left: 13%;
+}
+.home_page_top_banner_cont .carousel-indicators button{
+    width: 30px;
+    height: 30px;
+    text-indent: initial;
+    position: relative;
+}
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="0"]:after,
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="1"]:after{
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: #928D8D;
+    position: absolute;
+    bottom: 9px;
+    left: 7px;
+    color: #928D8D;
+}
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="0"]::before,
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="1"]::before{
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: #928D8D;
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    transform: rotate(-45deg);
+}
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="0"]:after{
+    transform: rotate(45deg);
+}
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="0"]::before{
+    transform: rotate(-45deg);
+}
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="1"]::after{
+    transform: rotate(-45deg);
+}
+.home_page_top_banner_cont .carousel-indicators button[data-bs-slide-to="1"]::before{
+    transform: rotate(45deg);
+}
+.carousel_item_text_box{
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
 .carousel_item_box{
     height: calc(100vh - 64px);
     /* height: 100vh; */
@@ -34,6 +84,36 @@ body{
 }
 .carousel_item_box.bg2{
     background-image: url(./../../img/newHomePage/new_home_page_banner_image_1.png);
+}
+.text_box_details{
+    max-width: 620px;
+    height: 370px;
+}
+.text_box_details h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-right: 40px;
+}
+.anywhere_cont{
+    display: flex;
+}
+.text_box_details .anywhere_cont p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-right: 40px;
+    margin: 20px 0px;
+}
+
+.text_box_details p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-right: 33px;
 }
 
 
@@ -80,10 +160,42 @@ body{
 .biger_box{
     width: calc(50% - 12px);
 }
+.only_for_mobile{
+    display: none;
+}
 
 
 
 /* brand section*/
+.brand_categories_btn_cont{
+    display: flex;
+    position: absolute;
+    bottom: 1px;
+    right: 0px;
+}
+.categories_btn{
+    font-family: 'Poppins', sans-serif;
+    width: 120px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #2DA77D;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2DA77D;
+    margin-right: 20px;
+}
+.categories_btn:last-child{
+    margin-right: 0px;
+}
+.categories_btn.active{
+    color: #FFFFFF;
+    background-color: #2DA77D;;
+}
 .brand_main_cont{
     display: flex;
     flex-wrap: wrap;
@@ -166,6 +278,9 @@ body{
 .read_more_btn img{
     margin-left: 5px;
 }
+.show_more_box{
+    display: none;
+}
 
 
 
@@ -225,6 +340,7 @@ body{
 .blog_calender_details_box .read_more_sec{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .blog_calender_details_box .read_more_sec span{
     font-weight: 400;
@@ -254,6 +370,82 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
+}
+.blank_box:last-child{
+    margin-right: 0px;
+}
+
+
+
+
+@media(max-width: 991px){
+    .carousel_item_box{
+
+    }
+    .carousel_item_box.bg1{
+        background-image: url(./../../img/newHomePage/new_home_page_banner_image_mobile_1.jpg);
+    }
+    .carousel_item_box.bg2{
+        background-image: url(./../../img/newHomePage/new_home_page_banner_image_mobile_2.jpg);
+    }
+    .carousel_item_text_box{
+        height: initial;
+    }
+    .text_box_details{
+        padding-top: 30px;
+    }
+    .text_box_details h1{
+        font-size: 18px;
+    }
+    .anywhere_cont{
+        display: none;
+    }
+    .text_box_details .anywhere_cont p{
+        font-size: 14px;
+    }
+    .text_box_details p{
+        font-size: 14px;
+    }
+    /* highlights container section */
+    .each_row_box{
+        flex-direction: column;
+    }
+    .small_box,
+    .biger_box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .second_each_row_box{
+        display: none;
+    }
+
+    .only_for_mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* brand section*/
+    .brand_categories_btn_cont{
+        position: relative;
+        margin-top: 20px;
+        min-width: 685px;
+        overflow-x: auto;
+    }
+    .brand_box_cont{
+        width: calc(50% - 10px);
+        margin-right: 0px;
+    }
+    .brand_box_cont:nth-child(even){
+        margin-left: 10px;
+    }
+    .brand_box_cont:nth-child(odd){
+        margin-right: 10px;
+    }
+    .brand_box_cont .brand_box_header{
+        height: 82px;
+    }
+
 }
 
 
@@ -275,21 +467,14 @@ body{
 
     /* brand section*/
     .brand_box_cont{
-        width: calc(50% - 10px);
+        width: 100%;
         margin-right: 0px;
-        height: 95px;
         padding: 10px;
         border: 1px solid #E2E2E2;
         box-shadow: none;
     }
-    .brand_box_cont:nth-child(odd) {
-        margin-right: 20px
-    }
     .brand_box_header{
         height: 41px;
-    }
-    .brand_box_header img{
-        width: calc(100% - 10px);
     }
     .hr_line{
         display: none;
@@ -301,11 +486,14 @@ body{
     .brand_box_body p{
         font-size: 14px;
     }
-    .arrow_outward{
-        display: none;
-    }
     .read_more_btn{
         display: block;
+    }
+    .brand_box_cont:nth-child(odd){
+        margin-right: 0px;
+    }
+    .brand_box_cont:nth-child(even){
+        margin-left: 0px;
     }
 
 

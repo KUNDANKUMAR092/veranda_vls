@@ -9,6 +9,26 @@
     padding-right: 0px;
 }
 
+.no_scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.overflow_x{
+    overflow-x: auto;
+}
+
+.overflow_y{
+    overflow-y: auto;
+}
+
+.overflow_hidden{
+    overflow: hidden;
+}
+
+.pos_realtive{
+    position: relative;
+}
+
 .brand_header{
     position: relative;
     padding-right: 50px;
@@ -345,6 +365,9 @@
     }
     .per_page_banner_bg .banner_conatiner h4{
         font-size: 24px;
+    }
+    .new_brand_header{
+        padding-right: 0px;
     }
 
 }
