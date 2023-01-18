@@ -1,52 +1,44 @@
-/* slick item */
 .new_room_slick_slider .slick-list{
-    
+    margin-right: -15px;
 }
-.new_room_slick_slider .slider_img_box{
+.slider_img_main_box_sec{
+    background-color: #ffffff;
+    padding-bottom: 0px;
+    box-shadow: 0px 1px 5px 1px rgb(0 0 0 / 8%);
+    border-radius: 4px;
+    margin-right: 15px;
+    /* box-shadow: 0px 3px 14px 3px rgba(0, 0, 0, 0.12); */
+}
+.slider_img_box{
     position: relative;
 }
-
 .blog_details_box{
     padding: 15px;
-    background-color: #ffffff;
-    position: absolute;
-    bottom: -55px;
-    width: 75%;
-    margin: auto;
-    left: 0;
-    right: 0;
-    border: 1px solid #E7E7E7;
-    border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .blog_details_box h6{
     font-weight: 500;
     font-size: 14px;
     color: #2DA77D;
     font-family: 'Poppins', sans-serif;
 }
-
 .blog_details_box h5{
     font-weight: 600;
     font-size: 18px;
     color: #142958;
     font-family: 'Montserrat', sans-serif;
 }
-
 .blog_calender_details_box{
     display: flex;
     justify-content: space-between;
 }
-
 .blog_calender_details_box .calender_sec{
     display: flex;
     align-items: center;
     line-height: initial;
 }
-
 .blog_calender_details_box .calender_sec span{
     font-weight: 400;
     font-size: 14px;
@@ -54,37 +46,40 @@
     font-family: 'Poppins', sans-serif;
     line-height: initial;
 }
-
 .blog_calender_details_box .calender_sec img{
     width: 10px;
     margin-right: 5px;
     line-height: initial;
 }
-
 .blog_calender_details_box .read_more_sec{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
-
 .blog_calender_details_box .read_more_sec span{
     font-weight: 400;
     font-size: 14px;
     color: #142958;
     font-family: 'Poppins', sans-serif;
 }
-
 .blog_calender_details_box .read_more_sec img{
     margin-left: 5px;
     width: 15px;
 }
-
-.see_more_cont{
-    margin-top: 20px;
-    text-align: center;
+.slider_item_img{
+    display: flex;
+    justify-content: center;
 }
 
 
-
+@media(max-width: 991px){
+    /* .new_room_slick_slider .slider_img_box .slider_item_img img{
+        width: 100%;
+    }
+    .blog_details_box{
+        width: 95%;
+    } */
+}
 
 @media(max-width: 767px){
     .new_room_slick_slider .slider_img_box .slider_item_img img{

@@ -14,11 +14,11 @@
 }
 
 .overflow_x{
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 
 .overflow_y{
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .overflow_hidden{
@@ -27,6 +27,10 @@
 
 .pos_realtive{
     position: relative;
+}
+
+.h-145{
+    height: 145px;
 }
 
 .brand_header{
@@ -135,6 +139,13 @@
 
 .small_button img{
     margin-left: 5px;
+}
+.only_for_mobile{
+    display: none;
+}
+.see_more_cont{
+    margin-top: 20px;
+    text-align: center;
 }
 /* end button section */
 
@@ -343,7 +354,12 @@
 
 
 
-
+@media(max-width : 991px){
+    .only_for_mobile{
+        display: flex;
+        justify-content: center;
+    }
+}
 
 @media(max-width: 767px){
     .container{

@@ -183,8 +183,11 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.awards_and_recognitions_slick_slider .slider_img_main_box_sec .slider_img_box:last-child{
+/* .awards_and_recognitions_slick_slider .slider_img_main_box_sec .slider_img_box:last-child{
     margin-top: 90px;
+} */
+.awards_and_recognitions_slick_slider .slick-track{
+    padding: 10px 0px;
 }
 .awards_and_recognitions{
     
