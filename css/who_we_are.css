@@ -1,5 +1,7 @@
 .who_we_are_banner_bg{
     background-image: url(./../img/who_we_are_bnner.png);
+    background-position: 100% 0%;
+    background-size: 100%;
 }
 
 .who_we_are_banner_bg .banner_conatiner{
@@ -34,9 +36,24 @@
     color: #767676;
 }
 
+.history_section_main_sec{
+    position: relative;
+}
+.green_overlay_bg{
+    background: rgba(45, 167, 125, 0.5);
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50vw;
+    height: 100%;
+    z-index: -1;
+}
+
 .history_section{
     position: relative;
     display: flex;
+    overflow: initial;
 }
 
 .history_section .history_left_section,
@@ -73,10 +90,7 @@
 .history_section .history_right_section .history_right_section_bg{
     width: 100%;
     height: 100%;
-    background: #30A67E;
-    border-radius: 8px 0px 0px 8px;
-    position: absolute;
-    right: -34%;
+    /* background: #30A67E; */
     display: flex;
     align-items: center;
 }
@@ -183,14 +197,52 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-/* .awards_and_recognitions_slick_slider .slider_img_main_box_sec .slider_img_box:last-child{
-    margin-top: 90px;
-} */
 .awards_and_recognitions_slick_slider .slick-track{
     padding: 10px 0px;
 }
+.awards_and_recognitions_slick_slider .slick-list{
+    margin-right: -15px;
+}
 .awards_and_recognitions{
     
+}
+
+.history_detals_slider .slider_img_main_box_sec{
+    margin-right: 0px;
+    box-shadow: none;
+}
+
+@media(max-width: 991px){
+    .history_section{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .history_section .history_left_section, 
+    .history_section .history_right_section{
+        width: 100%;
+    }
+    .history_section .history_right_section{
+        min-height: 430px;
+        height: initial;
+    }
+    .history_section .history_right_section .history_right_section_bg{
+        right: 0px;
+        height: 470px;
+        width: calc(100% - 55px);
+    }
+    .history_section .history_right_section .history_right_section_bg img{
+        left: 0px;
+        width: calc(100% - 50px);
+        height: calc(100% - 120px);
+    }
+    .awards_and_recognitions{
+        margin-top: 30px;
+    }
+    .green_overlay_bg{
+        width: 85vw;
+        height: 470px;
+    }
 }
 
 
@@ -203,28 +255,9 @@
         width: calc(100% - 30px);
         padding: 0px;
     }
-    .history_section{
-        flex-direction: column;
-        padding-left: 15px;
-    }
-    .history_section .history_left_section, .history_section .history_right_section{
-        width: 100%;
-    }
-    /* .history_right_section .brand_header{
-        display: block;
-    } */
     .history_section .history_right_section{
         height: 470px;
         overflow: hidden;
-    }
-    .history_section .history_right_section .history_right_section_bg{
-        right: -50px;
-        height: 420px;
-        width: calc(100% - 50px);
-    }
-    .history_section .history_right_section .history_right_section_bg img{
-        left: -50px;
-        width: calc(100% - 50px)
     }
     .history_left_section{
         padding-right: 15px;
@@ -232,15 +265,9 @@
     .history_calender_year_drop_down{
         padding-right: 10px;
     }
-    /* .history_left_section .brand_header{
-        display: none;
-    } */
-    /* .history_calender_year_drop_down{
-        display: none;
-    } */
-    /* .history_calender_year_month{
-        border-left: 0px;
-    } */
+    .history_section .history_right_section .history_right_section_bg img{
+        width: calc(100% - 50px);
+    }
     .history_detals_slider_box{
         margin-top: 20px;
     }
@@ -251,15 +278,15 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .awards_and_recognitions_slick_slider .slider_img_main_box_sec .slider_img_box:last-child{
-        display: none;
-    }
     .awards_and_recognitions{
         margin-top: 20px;
         margin-bottom: 50px;
         padding-left: 15px;
         padding-right: 15px;
     }
+    /* .green_overlay_bg{
+        height: 470px;
+    } */
 }
 
 

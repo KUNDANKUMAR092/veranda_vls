@@ -7,6 +7,7 @@
     margin: auto;
     padding-left: 0px;
     padding-right: 0px;
+    overflow: hidden;
 }
 
 .no_scrollbar::-webkit-scrollbar{
@@ -158,7 +159,8 @@
 }
 
 .banner_body_section{
-    background: rgba(48, 166, 126, 0.88);
+    /* background: rgba(48, 166, 126, 0.88); */
+    background: linear-gradient(93.58deg, rgba(45, 167, 125, 0.9) 0%, rgba(118, 93, 183, 0.9) 100%);
     width: 100%;
     height: 100%;
 }
@@ -202,11 +204,11 @@
 }
 
 .slick_slider_arrow .slick-arrow.slick-prev{
-    right: 55px;
+    right: 40px;
 }
 
 .slick_slider_arrow .slick-arrow.slick-next{
-    right: 15px;
+    right: 0px;
 }
 
 .slick_slider_arrow .slick-arrow.slick-prev:after, 
@@ -352,29 +354,33 @@
 }
 
 
-
+@media(min-width: 1601px){
+    .container{
+        max-width: 80%;
+    }
+}
 
 @media(max-width : 991px){
     .only_for_mobile{
         display: flex;
         justify-content: center;
     }
-}
-
-@media(max-width: 767px){
     .container{
         padding-left: 15px;
         padding-right: 15px;
     }
+}
+
+@media(max-width: 767px){
     .brand_header h2{
         font-size: 20px;
     }
     .banner_section{
         height: 100px;
     }
-    .navbar_path_container{
+    /* .navbar_path_container{
         padding: 0px 15px;
-    }
+    } */
 
     .per_page_banner_bg .banner_conatiner{
         padding: 0px 15px 20px 15px;

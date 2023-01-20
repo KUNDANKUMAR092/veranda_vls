@@ -16,8 +16,8 @@
 }
 .new_room_page_box_container .slider_img_main_box_sec{
     margin-bottom: 20px;
-    min-width: 385px;
-    margin-right: 14px;
+    max-width: 385px;
+    /* margin-right: 14px; */
 }
 
 /* filter section start */
@@ -137,12 +137,36 @@
 
 /* filter section end */
 
+@media(max-width: 1024px){
+    .new_room_page_box_container .slider_img_main_box_sec{
+        max-width: calc(50% - 13px);
+        min-width: calc(50% - 13px);
+    }
+    .new_room_page_box_container .slider_img_main_box_sec:nth-child(odd){
+        margin-left: 5px;
+    }
+    .new_room_page_box_container .slider_img_main_box_sec:nth-child(even){
+        margin-right: 5px;
+    }
+}
 
 @media(max-width: 767px){
-    .sub_heading_sec_cont{
-        padding-left: 15px;
-    }
     .brand_sub_header h3{
         font-size: 16px;
+    }
+    .new_room_page_box_container .slider_img_main_box_sec{
+        max-width: 100%;
+        min-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .new_room_page_box_container .slider_img_main_box_sec:nth-child(odd){
+        margin-left: 0px;
+    }
+    .new_room_page_box_container .slider_img_main_box_sec:nth-child(even){
+        margin-right: 0px;
+    }
+    .brand_sub_header{
+        margin-top: 30px;
     }
 }

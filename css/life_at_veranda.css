@@ -1,16 +1,8 @@
 .life_at_veranda_page_banner_bg {
     background-image: url(./../img/life_at_veranda_banner.png);
     background-size: 100% 418px;
-
     background-position-x: center;
-
-
 }
-
-.banner_body_section {
-    background: none;
-}
-
 
 .per_page_banner_bg .banner_conatiner {
     display: block;
@@ -22,37 +14,18 @@
     width: 568px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
-    /* or 188% */
-
     letter-spacing: 0.08em;
-
     color: #FFFFFF;
 }
 
 .per_page_banner_bg .banner_conatiner h4 {
-
-    /* position: absolute; */
     width: 544px;
-    /* height: 144px; */
-    left: 150px;
-    top: 143px;
-
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 72px;
-    line-height: 72px;
-    /* or 100% */
-
-    display: flex;
-    align-items: center;
-
     color: #FFFFFF;
-
 }
 
 .green_title {
@@ -136,42 +109,23 @@
 
 
 .sub_section_title_odd {
-    /* position: absolute; */
-    /* width: 316px; */
     height: 48px;
-    /* left: 665px; */
-    /* top: 636px; */
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 48px;
-    /* identical to box height, or 133% */
-    display: flex;
     align-items: center;
     color: #353535;
-
-    /* padding-left: 2em; */
     padding-top: 5em;
 
 }
 
 .sub_section_desc_odd {
-    /* position: absolute; */
-    /* width: 625px; */
     height: 140px;
-    /* left: 665px; */
-    /* top: 700px; */
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
-    /* or 175% */
     letter-spacing: 0.06em;
     color: #767676;
-
-    /* padding-left: 4.8em; */
     padding-top: 2em;
 }
 
@@ -187,13 +141,13 @@
     height: 60px !important;
 }
 
+/* tab view */
+
 
 
 /* mobile view css */
 
 @media(max-width: 767px) {
-
-
     .desktop_view {
         display: none;
     }
@@ -229,91 +183,40 @@
     .banner_body_section {
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.65);
-        /* mix-blend-mode: multiply; */
     }
 
     .life_at_veranda_page_banner_bg {
         height: 418px;
-
+        background-image: url(./../img/life_at_veranda_banner_mobile.png);
     }
 
     .per_page_banner_bg .banner_conatiner h4 {
-        /* position: absolute; */
         width: 328px;
-        height: 58px;
-        left: 16px;
-        top: 284px;
-
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 29px;
-        /* or 120% */
-
-        display: flex;
-        align-items: center;
-
-        color: #FFFFFF;
-
         padding-top: 10em;
-        /* padding-right: 7em; */
-
-
+        font-size: 24px;
     }
-
 
     .green_title {
-
         width: 328px;
         height: 58px;
         left: 16px;
         top: 284px;
-
         font-family: 'Montserrat', sans-serif;
-        font-style: normal;
         font-weight: 700;
         font-size: 24px;
-        line-height: 29px;
-        /* or 120% */
-
-        display: flex;
-        align-items: center;
-
         color: #2DA77D;
-
-
-        /* padding-top: 1em; */
     }
 
-
-
     .per_page_banner_bg .banner_conatiner h6 {
-        /* position: absolute; */
         width: 328px;
         height: 63px;
         left: 16px;
         top: 350px;
-
         font-family: 'Poppins', sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 21px;
-        /* or 150% */
-
         letter-spacing: 0.08em;
-
         color: #FFFFFF;
-        /* padding-top: 1em; */
-
     }
-
-    .per_page_banner_bg .banner_conatiner {
-        padding-left: 4%;
-    }
-
-
 
 }
