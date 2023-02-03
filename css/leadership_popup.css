@@ -20,18 +20,16 @@
 .popup_left_side{
     background-color: #339F7A;
     width: 50px;
-    height: 660px;
 }
 
 .popup_right_side{
     width: calc(100% - 50px);
-    /* padding: 0px 15px; */
     background: #F9F9F9;
 }
 
 .leadership_popup_heading{
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 0px 30px;
 }
 
@@ -40,25 +38,34 @@
     font-weight: 600;
     font-size: 32px;
     text-transform: capitalize;
-    color: #142958;
+    color: #3D3D3D;
     margin-bottom: 0px;
 }
 
 .leadership_popup_boday_cont{
     display: flex;
-    height: calc(100% - 40px);
+    height: calc(100% - 130px);
+    padding-bottom: 30px;
 }
 
 .leadership_popup_details_left{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
 }
 
 .green_box_cont{
-    Width : 316px;  
-    Height : 238px;
+    position: relative;
+    padding-left: 15px;
+    z-index: 1;
+}
+
+.green_box_cont_overlay{
+    z-index: -1;
+    position: absolute !important; 
+    bottom: -15px;
+    left: 0;
+    width: 85%;
+    height: 85%;
     background-color: #339F7A;
     position: relative;
     border-top-right-radius: 6px;
@@ -66,18 +73,12 @@
 }
 
 .green_box_cont img{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 15px;
-    margin: auto;
-    width: 272px;
-    height: 318px;
+    border-radius: 6px;
 }
 
 .leadership_name_details{
-    margin-top: 15px;
-    padding-left: 5px;
+    margin-top: 30px;
+    padding-left: 15px;
 }
 
 .leadership_name_details h4{
@@ -142,6 +143,14 @@
 
     .green_box_cont{
         width: 100%;
+        text-align: center;
+        padding-right: 15px;
+    }
+    .green_box_cont_overlay{
+        width: 100%;
+    }
+    .green_box_cont img{
+        max-width: 100%;
     }
     .leadership_popup_details_right{
         padding: 0px;

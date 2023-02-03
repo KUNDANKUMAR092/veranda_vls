@@ -452,6 +452,15 @@
                     endDate: '+10d'
                 });   
             });
-            </script>
+        </script>
+        <script>
+            $(document).on('click', function (e) {
+                if ($(e.target).closest(".filter_sec_cont").length === 0) {
+                    $(".filter_sec_cont").removeClass("active");
+                }else{
+                    $(".filter_sec_cont").addClass("active");
+                }
+            });
+        </script>
     </body>
 </html>

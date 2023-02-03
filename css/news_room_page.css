@@ -13,11 +13,13 @@
 .new_room_page_box_container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .new_room_page_box_container .slider_img_main_box_sec{
     margin-bottom: 20px;
-    max-width: 385px;
-    /* margin-right: 14px; */
+    max-width: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* filter section start */
@@ -25,7 +27,7 @@
     position: relative;
 }
 
-.filter_sec_cont:hover .filter_sec_dropdown{
+.filter_sec_cont.active .filter_sec_dropdown{
     display: block;
 }
 
@@ -139,13 +141,15 @@
 
 @media(max-width: 1024px){
     .new_room_page_box_container .slider_img_main_box_sec{
-        max-width: calc(50% - 13px);
-        min-width: calc(50% - 13px);
+        max-width: calc(50% - 15px);
+        min-width: calc(50% - 15px);
     }
     .new_room_page_box_container .slider_img_main_box_sec:nth-child(odd){
         margin-left: 5px;
+        margin-right: 10px;
     }
     .new_room_page_box_container .slider_img_main_box_sec:nth-child(even){
+        margin-left: 10px;
         margin-right: 5px;
     }
 }
@@ -154,6 +158,27 @@
     .brand_sub_header h3{
         font-size: 16px;
     }
+
+    .new_room_page_box_container .slider_img_main_box_sec{
+        max-width: 300px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    /* .new_room_page_box_container .slider_img_main_box_sec:nth-child(odd){
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .new_room_page_box_container .slider_img_main_box_sec:nth-child(even){
+        margin-left: 0px;
+        margin-right: 0px;
+    } */
+    
+    .brand_sub_header{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 480px){
     .new_room_page_box_container .slider_img_main_box_sec{
         max-width: 100%;
         min-width: 100%;
@@ -162,11 +187,10 @@
     }
     .new_room_page_box_container .slider_img_main_box_sec:nth-child(odd){
         margin-left: 0px;
-    }
-    .new_room_page_box_container .slider_img_main_box_sec:nth-child(even){
         margin-right: 0px;
     }
-    .brand_sub_header{
-        margin-top: 30px;
+    .new_room_page_box_container .slider_img_main_box_sec:nth-child(even){
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }

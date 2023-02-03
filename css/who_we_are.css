@@ -45,7 +45,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 50vw;
+    width: 40vw;
     height: 100%;
     z-index: -1;
 }
@@ -97,7 +97,7 @@
 
 .history_section .history_right_section .history_right_section_bg img{
     position: absolute;
-    left: -100px;
+    left: 50px;
 }
 
 .history_calender_box{
@@ -202,6 +202,8 @@
 }
 .awards_and_recognitions_slick_slider .slick-list{
     margin-right: -15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .awards_and_recognitions{
     

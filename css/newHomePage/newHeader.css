@@ -17,9 +17,12 @@
 }
 
 .real_sensex_value_box{
-    padding: 13px 5px;
+    padding: 10px 15px;
     position: absolute;
     right: 0;
+    background-color: #F2F2F2;
+    height: 64px;
+    box-sizing: border-box;
 }
 
 .real_sensex_data{
@@ -29,14 +32,21 @@
 
 .real_sensex_data .sensex_bold{
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     padding-right: 5px;
+    color: #3D3D3D;
 }
 
-.real_sensex_data .sensex_thin{
+.sensex_data_cont{
+    display: flex;
+    align-items: center;
+}
+
+.sensex_data_cont .sensex_thin{
     font-weight: 500;
     font-size: 10px;
     color: #2DA77E;
+    margin-right: 3px;
 }
 
 .real_sensex_value_box p{
@@ -48,8 +58,8 @@
 
 .veranda_navbar_common .collapse.navbar-collapse{
     flex-grow: initial;
-    width: calc(100% - 280px);
-    padding-right: 150px;
+    width: calc(100% - 260px);
+    padding-right: 130px;
 }
 
 .veranda_navbar_common .collapse.navbar-collapse .navbar-nav{
@@ -58,7 +68,7 @@
 }
 
 .veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item .nav-link{
@@ -70,6 +80,17 @@
 
 .veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item .nav-link.active{
     color: #2DA77E;
+}
+
+.veranda_navbar_common .collapse.navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 40px;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #0000002d transparent;
 }
 
 

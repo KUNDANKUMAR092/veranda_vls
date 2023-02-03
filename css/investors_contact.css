@@ -61,7 +61,8 @@
     top: 608px;
     color: #2DA77D;
     background-color: #2DA77D;
-    border: 1px solid #2DA77D;
+    border: 0.5px solid #2DA77D;
+    opacity: 1;
 }
 
 .investor_name {

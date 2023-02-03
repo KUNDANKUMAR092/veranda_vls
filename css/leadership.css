@@ -5,11 +5,13 @@
 .new_room_page_box_container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .new_room_page_box_container .slider_img_main_box_sec{
     margin-bottom: 20px;
-    min-width: 385px;
-    margin-right: 14px;
+    min-width: 360px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .blog_details_box h5{
     margin-bottom: 20px;
@@ -29,40 +31,62 @@
     cursor: pointer;
 }
 
+.leadership_page_container .slider_img_main_box_sec .slider_img_box{
+    background-color: #FFFFFF;
+    height: 455px;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
+}
+
 .leadership_page_container .slider_img_main_box_sec .slider_img_box .slider_item_img{
-    max-width: 385px;
-    height: 335px;
+    max-width: 360px;
+    height: calc(100% - 120px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .leadership_page_container .slider_img_main_box_sec .slider_img_box .slider_item_img img{
-    /* width: 100%;
-    height: 100%; */
+    filter: gray; 
+    -webkit-filter: grayscale(1);
+}
+.leadership_page_container .slider_img_main_box_sec .slider_img_box .slider_item_img img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
 }
 
 .leadership_page_container .slider_img_main_box_sec .slider_img_box .blog_details_box{
+    position: initial;
     align-items: center;
-    bottom: -30px;
+    /* bottom: -60px; */
+    width: 100%;
+    height:120px;
+    border-radius: 0px;
+    border: none;
 }
 
 .leadership_page_container .slider_img_main_box_sec{
     margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 
 @media(max-width:767px){
-    .sub_heading_sec_cont,
-    .leadership_page_container{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
     .leadership_page_container .slider_img_main_box_sec{
-        min-width: calc(100% - 30px);
+        min-width: 100%;
         margin-right: 0px;
+        padding-bottom: 80px;
+        margin-left: 0px;
     }
     .leadership_page_container .slider_img_main_box_sec .slider_img_box .blog_details_box{
         width: 90%;
+    }
+    .leadership_page_container .slider_img_main_box_sec .slider_img_box .slider_item_img{
+        max-width: 100%;
+    }
+    .leadership_page_container .slider_img_main_box_sec .slider_img_box .slider_item_img img{
+        max-width: 100%;
     }
 }

@@ -1,5 +1,6 @@
-.career_header,.per_page_banner_bg .banner_conatiner h4 {
-     /* position: absolute; */
+.career_header,
+.per_page_banner_bg .banner_conatiner h4 {
+    /* position: absolute; */
     width: 544px;
     height: 150px;
     left: 144px;
@@ -179,7 +180,7 @@
 
     /* position: absolute; */
     max-width: 375px;
-    width: calc(33.3% - 15px);
+    width: calc(100% - 15px);
     height: 327px;
     left: 531px;
     top: 697px;
@@ -239,7 +240,7 @@
     left: 181.95px;
     top: 813.07px;
 
-    border: 1.11604px solid #D9D9D9;
+    border: 0.25px solid #D9D9D9;
 
     background-color: #D9D9D9;
     opacity: 1;
@@ -347,7 +348,7 @@
     color: #2DA77D;
 }
 
-.apply_right_arrow_icon{
+.apply_right_arrow_icon {
     height: 11px;
     width: 7px;
     padding-left: 1px;
@@ -393,7 +394,8 @@
         margin-left: 10px;
     }
 
-    .career_header,.per_page_banner_bg .banner_conatiner h4 {
+    .career_header,
+    .per_page_banner_bg .banner_conatiner h4 {
         padding-top: 1em;
         /* position: absolute; */
         width: 280px;
@@ -403,7 +405,7 @@
         font-weight: 600;
         font-size: 24px;
         line-height: 30px;
-        
+
 
     }
 

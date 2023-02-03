@@ -14,13 +14,22 @@ $(".new_room_slick_slider").slick({
     }, {
         breakpoint: 991,
         settings: {
+            slidesToShow: 3,
+        }
+    },, {
+        breakpoint: 880,
+        settings: {
             slidesToShow: 2,
         }
     }, {
         breakpoint: 767,
         settings: {
+            slidesToShow: 2,
+        }
+    }, {
+        breakpoint: 480,
+        settings: {
             slidesToShow: 1,
-            // centerMode: true,
         }
     }]
 });

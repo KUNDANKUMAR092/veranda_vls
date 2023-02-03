@@ -186,6 +186,19 @@ footer{
     font-family: 'Montserrat', sans-serif;
 }
 
+@media(max-width: 991px){
+    .footer_main_details{
+        padding: 20px 15px;
+        flex-wrap: wrap;
+        height: initial;
+    }
+    .logo_with_social_icon_cont,
+    .important_link_section,
+    .footer_form_section{
+        width: 100%;
+    }
+}
+
 
 @media(max-width: 767px){
     .footer_logo_icon .deskop{
@@ -194,11 +207,6 @@ footer{
     
     .footer_logo_icon .mobile{
         display: block;
-    }
-    .footer_main_details{
-        padding: 20px 15px;
-        flex-wrap: wrap;
-        height: initial;
     }
     .important_link_section{
         margin: 40px 0px 30px;

@@ -4,6 +4,10 @@
     height: 95%;
 }
 
+.per_page_banner_bg .banner_conatiner h4 {
+    font-weight: 500;
+}
+
 #radio_button {
     border: 3px solid white;
     box-shadow: 0 0 0 1px #2ba97d;
@@ -272,5 +276,17 @@
         line-height: 24px;
     }
 
+    .banner_section {
+        height: 185px;
+
+    }
+
+    .banner_conatiner {
+        height: 90%;
+    }
+
+    .per_page_banner_bg .banner_conatiner h4 {
+        font-weight: 600;
+    }
 
 }
