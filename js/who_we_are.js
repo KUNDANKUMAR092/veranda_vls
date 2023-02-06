@@ -9,7 +9,7 @@ $(".history_detals_slider").slick({
 });
 
 $(".awards_and_recognitions_slick_slider").slick({
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -18,18 +18,17 @@ $(".awards_and_recognitions_slick_slider").slick({
     responsive: [{
         breakpoint: 1200,
         settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
         }
     }, {
-        breakpoint: 991,
+        breakpoint: 1199,
         settings: {
             slidesToShow: 2,
         }
-    }, {
-        breakpoint: 767,
+    },{
+        breakpoint: 800,
         settings: {
             slidesToShow: 1,
-            // centerMode: true,
         }
     }]
 });

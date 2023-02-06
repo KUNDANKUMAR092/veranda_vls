@@ -110,79 +110,47 @@
 }
 
 .email_id_title {
-    /* position: absolute; */
-    width: 129px;
-    height: 18px;
-    left: 150px;
-    top: 811px;
-
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 48px;
-    /* or 400% */
-
     display: flex;
     align-items: center;
     text-transform: capitalize;
-
     color: #767676;
+    margin-bottom: 1px;
 }
 
-
+.email_id{
+    display: flex;
+}
 
 .email_id_img {
     color: #2DA77D;
-    float: left;
     margin-top: -1.5px;
     margin-right: 5px;
 }
 
 .email_id_text {
-
-    /* position: absolute; */
-    width: 296px;
-    height: 24px;
-    left: 580px;
-    top: 834px;
-
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 24px;
-    /* identical to box height, or 200% */
-
     display: flex;
     align-items: center;
     text-transform: lowercase;
-
     color: #000000;
 
 }
 
 .phone_no_title {
-    /* position: absolute; */
-    width: 129px;
-    height: 18px;
-    left: 560px;
-    top: 874px;
-
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 48px;
-    /* or 400% */
-
     display: flex;
     align-items: center;
     text-transform: capitalize;
-
     color: #767676;
-
-
+    margin-bottom: 1px;
 }
 
 .phone_number {

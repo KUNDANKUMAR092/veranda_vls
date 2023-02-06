@@ -72,13 +72,13 @@ body{
 
 .indicater_btn_sec{
     position: absolute;
-    bottom: 20vh;
+    bottom: 10vh;
 }
 
 .carousel_item_text_box{
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -102,7 +102,7 @@ body{
 }
 .carousel_item_box img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 /* .carousel_item_box.bg_mob1,
 .carousel_item_box.bg_mob2{
@@ -114,7 +114,7 @@ body{
 }
 .text_box_details{
     max-width: 620px;
-    height: 370px;
+    /* height: 370px; */
 }
 .text_box_details h1{
     font-family: 'Montserrat', sans-serif;
@@ -122,11 +122,11 @@ body{
     font-size: 48px;
     color: #FFFFFF;
     padding-right: 40px;
-    line-height: 59px;
+    line-height: 1.2;
 }
 .anywhere_cont{
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .text_box_details .anywhere_cont p{
     font-family: 'Montserrat', sans-serif;
@@ -144,6 +144,8 @@ body{
     font-size: 16px;
     color: #FFFFFF;
     padding-right: 33px;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 .text_box_details .text_box_sub_details{
     margin-top: 20px;
